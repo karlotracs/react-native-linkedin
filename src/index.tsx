@@ -309,6 +309,7 @@ export default class LinkedInModal extends React.Component<Props, State> {
 
   renderButton = () => {
     const { renderButton, linkText, areaTouchText, isDisabled = false } = this.props
+    return null;
     if (renderButton) {
       return(
         <TouchableOpacity  
